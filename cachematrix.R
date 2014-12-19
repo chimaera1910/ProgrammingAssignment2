@@ -29,7 +29,7 @@ list(set=set, get=get,
 cacheSolve <- function(x=invatrix(), ...) {
     inv<-x$getinvatrix()
     if(!is.null(inv)){
-      invessage("getting cached data")
+      invessage("get cached matrix")
       return(inv)
     }
     invatrix <- x$get() 
